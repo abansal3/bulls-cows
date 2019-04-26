@@ -26,7 +26,7 @@ void FBullCowGame::Reset() {
 }
 
 int32 FBullCowGame::GetMaxTries() const {
-    TMap<int32,int32> WordLengthToMaxTries = {{3, 2}, {4, 3}, {5, 4}, {6, 5}};
+    TMap<int32,int32> WordLengthToMaxTries = {{3, 4}, {4, 7}, {5, 10}, {6, 16}, {7, 20}};
     return WordLengthToMaxTries[GetHiddenWordLength()]; 
 }
 
