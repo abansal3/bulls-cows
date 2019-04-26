@@ -85,7 +85,7 @@ EGuessStatus FBullCowGame::CheckGuessValidity(FString Guess) const {
 
 bool FBullCowGame::IsIsogram(FString Guess) const {
 
-    if (Guess.length() <= 1) { return true; };
+    if (Guess.length() <= 1) { return true; }
 
     TMap<char, bool> LettersSeen;
     for (auto Letter : Guess) {
