@@ -1,6 +1,8 @@
 /* This is the console executable that makes use of the BullCow Class. This acts as the view in a MVC Pattern and is reponsible for all user interaction. For game logic, see the FBullCowGame Class.
 */
 
+#pragma once
+
 #include <iostream>
 #include <string>
 #include "FBullCowGame.h"
